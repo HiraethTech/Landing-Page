@@ -15,7 +15,7 @@ async function copyText(e) {
 }
 
 shareButtons.forEach(shareButton => 
-    shareButton.addEventListener('click', copyText))
+    shareButtons.addEventListener('click', copyText))
 
 const shareButton = document.querySelectorAll('.share-button')
 console.log(shareButton)
